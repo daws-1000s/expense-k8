@@ -23,4 +23,4 @@ spec:
     spec:
       containers:
         - name: mysql
-          image:  joindevops/mysql:v1
+          image: joindevops/mysql:v1
