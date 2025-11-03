@@ -33,6 +33,9 @@ spec:
       containers:
         - name: app
           image: joindevops/backend:v1
+          envFrom:
+          - configMapRef:
+              name: backend
 
 ---
 
